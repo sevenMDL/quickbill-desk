@@ -29,7 +29,7 @@
 ### PDF Output
 | Professional Invoice PDF |
 |--------------------------|
-| ![PDF](../Invoice_Pdf/INV-0014.pdf) |
+| ![PDF](PDF_Sample.png) |
 
 ---
 
