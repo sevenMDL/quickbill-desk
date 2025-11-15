@@ -74,15 +74,6 @@ Detailed docs are inside:
 
 ---
 
-## 🖥️ Screenshots
-Visuals inside:
-
-`docs/screenshots/`
-
-(You can replace placeholders with real images later.)
-
----
-
 ## 🔒 Code Availability
 The source code **is NOT included in this repository**.  
 This repo is **documentation-only** and fully safe to share publicly.
