@@ -7,9 +7,9 @@
 |------------------|------------------|------------------|
 | ![Admin A](Admin_Dashboard_Page_A.jpg) | ![Admin B](Admin_Dashboard_Page_B.jpg) | ![Admin C](Admin_Dashboard_Page_C.jpg) |
 
-| Dashboard Light | Dashboard Dark | Bulk Operations |
-|-----------------|----------------|-----------------|
-| ![Dashboard Light](Dashboard_Page_.jpg) | ![Dashboard Dark](Dashboard_Dark.jpg) | ![Bulk Ops](Dashboard_Page_Bulk.jpg) |
+| Bulk Operations | Dark Mode |
+|-----------------|-----------|
+| ![Bulk Ops](Dashboard_Page_Bulk.jpg) | ![Dark Mode](Dashboard_Dark.jpg) |
 
 ### Client Management
 | Client List | Add Client Form |
@@ -24,7 +24,7 @@
 ### Authentication & Settings
 | Login Page | Settings Page |
 |------------|---------------|
-| ![Login](Login_Page_Empty.jpg) | ![Settings](Settings_Page.jpg) |
+| ![Login](Login_Page_Filled.jpg) | ![Settings](Settings_Page.jpg) |
 
 ### PDF Output
 | Professional Invoice PDF |
@@ -36,11 +36,11 @@
 ## 🎯 Key Features Showcased
 
 - **Professional Dashboard** - Revenue analytics and business insights (3 admin views)
+- **Bulk Operations** - Mass actions for efficiency  
+- **Dark Mode** - User preference support
 - **Invoice Creation** - Step-by-step invoice builder with live preview  
 - **Client Management** - Complete CRM with search and filtering
-- **Bulk Operations** - Mass actions for efficiency
 - **PDF Generation** - Professional invoice output
 - **Responsive Design** - Works on all devices
-- **Dark/Light Mode** - User preference support
 
 *All screenshots from the production-ready QuickBill Desk application*
