@@ -13,9 +13,10 @@
 | ![Create Invoice](Create_Invoce_Page.jpg) | ![Invoice History](InvoiceHistory_Page.jpg) | ![PDF](../Invoice_Pdf/INV-0014.pdf) |
 
 ### Client Management
-| Client List | Add Client | Client Form |
-|-------------|------------|-------------|
-| ![Clients](ClinetManagement_Page.jpg) | ![New Client](New_Clinte_Form.jpg) | ![Create Client](Create_Clinet_Form.jpg) |
+| Client List | Create Client |
+|-------------|---------------|
+| ![Clients](ClinetManagement_Page.jpg) | ![Create Client](Create_Clinet_Form.jpg) |
+
 
 ### Authentication & Settings
 | Login Page | Settings Page | Full Settings |
