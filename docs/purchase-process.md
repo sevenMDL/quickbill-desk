@@ -1,6 +1,6 @@
 Purchase QuickBill Desk
 
-One-Time Payment: $499
+One-Time Payment: $799
 
 🏆 Exclusive Ownership Guarantee
 
