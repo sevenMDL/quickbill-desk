@@ -1,38 +1,86 @@
-# QuickBill Desk - Application Screenshots
+# QuickBill Desk
 
-## 📱 User Interface Overview
+**QuickBill Desk** is a modern, enterprise-ready invoicing and client management system built with a clean architecture, complete frontend, and backend stack.  
 
-### Dashboard & Analytics
-| Dashboard Light | Dashboard Dark | Admin Dashboard |
-|----------------|----------------|-----------------|
-| ![Dashboard](Dashboard_Page_Bulk.jpg) | ![Dashboard Dark](Dashboard_Dark.jpg) | ![Admin Dashboard](Admin_Dashboard_Page_A.jpg) |
+---
 
-### Invoice Management
-| Create Invoice | Invoice History | PDF Output |
-|----------------|-----------------|-------------|
-| ![Create Invoice](Create_Invoce_Page.jpg) | ![Invoice History](InvoiceHistory_Page.jpg) | ![PDF](../Invoice_Pdf/INV-0014.pdf) |
+## 🚀 Features Overview
+
+- **Client Management**: Easily manage clients, add new clients, and view client details.
+- **Invoice Handling**: Create, view, and manage invoices.
+- **Dashboard Analytics**: Gain insights from admin dashboards.
+- **Settings & Configuration**: Customize system behavior.
+- **Secure Authentication**: Login and role-based access control.
+- **Backup & Recovery**: Automated backups for data protection.
+
+---
+
+## 📂 Project Structure
+
+Refer to [Project Structure](./docs/project-structure.md) for a detailed file and folder architecture.
+
+---
+
+## 🎨 UI Showcase
+
+### Login Screens
+| Empty Login | Filled Login |
+|------------|--------------|
+| ![Login Empty](screenshots/Login_Page_Empty.jpg) | ![Login Filled](screenshots/Login_Page_Filled.jpg) |
+
+### Admin Dashboard
+| Dashboard Light | Dashboard Dark | Bulk Operations |
+|-----------------|----------------|----------------|
+| ![Dashboard Light](screenshots/Admin_Dashboard_Page_A.jpg) | ![Dashboard Dark](screenshots/Dashboard_Dark.jpg) | ![Bulk Operations](screenshots/Dashboard_Page_Bulk.jpg) |
 
 ### Client Management
 | Client List | Create Client |
 |-------------|---------------|
-| ![Clients](ClinetManagement_Page.jpg) | ![Create Client](Create_Clinet_Form.jpg) |
+| ![Clients](screenshots/ClinetManagement_Page.jpg) | ![Create Client](screenshots/Create_Clinet_Form.jpg) |
 
+### Invoice Management
+| Create Invoice | Invoice History | PDF Export |
+|----------------|----------------|------------|
+| ![Create Invoice](screenshots/Create_Invoce_Page.jpg) | ![Invoice History](screenshots/InvoiceHistory_Page.jpg) | ![Invoice PDF](Invoice_Pdf/INV-0014.pdf) |
 
-### Authentication & Settings
-| Login Page | Settings Page | Full Settings |
-|------------|---------------|---------------|
-| ![Login](Login_Page_Filled.jpg) | ![Settings](Settings_Page.jpg) | ![Settings Full](Settings_Page_Full.jpg) |
+### Settings
+| Settings Overview | Full Settings |
+|------------------|---------------|
+| ![Settings](screenshots/Settings_Page.jpg) | ![Full Settings](screenshots/Settings_Page_Full.jpg) |
 
 ---
 
-## 🎯 Key Features Showcased
+## ⚙️ Technical Highlights
 
-- **Professional Dashboard** - Revenue analytics and business insights
-- **Invoice Creation** - Step-by-step invoice builder with live preview
-- **Client Management** - Complete CRM with search and filtering
-- **Bulk Operations** - Mass actions for efficiency
-- **PDF Generation** - Professional invoice output
-- **Responsive Design** - Works on all devices
-- **Dark/Light Mode** - User preference support
+### Backend
+- **MVC Pattern** with separation of concerns
+- **Controllers**: Auth, Client, Invoice, Bulk, Email, Settings, Health
+- **Models**: MongoDB schemas for Client, Invoice, Settings
+- **Utilities**: PDF generation, backup automation, validation, and more
 
-*All screenshots from the production-ready QuickBill Desk application*
+### Frontend
+- **React + TypeScript** for type safety
+- **71+ UI Components** built with Shadcn/ui
+- **Pages**: 12 core pages including Dashboard, Clients, Invoices, Settings
+- **Tailwind CSS** for responsive UI
+
+### Production Features
+- Docker-ready deployment
+- API documentation in `docs/`
+- Automated data backups
+- Testing scripts for backend validation
+
+---
+
+## 📚 Documentation
+
+- [API Overview](./docs/api-overview.md)  
+- [System Design](./docs/system-design.md)  
+- [Modules Summary](./docs/modules-summary.md)  
+- [UI Showcase](./docs/ui-showcase.md)  
+- [Purchase Process](./docs/purchase-process.md)  
+- [Startup Guide](./startup-guide.md)  
+
+---
+
+*QuickBill Desk is designed for scalability, security, and ease of use for small to medium enterprises.*
