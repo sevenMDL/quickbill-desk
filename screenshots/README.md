@@ -1,86 +1,46 @@
-# QuickBill Desk
+# QuickBill Desk - Application Screenshots
 
-**QuickBill Desk** is a modern, enterprise-ready invoicing and client management system built with a clean architecture, complete frontend, and backend stack.  
+## 📱 User Interface Overview
 
----
+### Dashboard & Analytics
+| Admin Dashboard A | Admin Dashboard B | Admin Dashboard C |
+|------------------|------------------|------------------|
+| ![Admin A](Admin_Dashboard_Page_A.jpg) | ![Admin B](Admin_Dashboard_Page_B.jpg) | ![Admin C](Admin_Dashboard_Page_C.jpg) |
 
-## 🚀 Features Overview
-
-- **Client Management**: Easily manage clients, add new clients, and view client details.
-- **Invoice Handling**: Create, view, and manage invoices.
-- **Dashboard Analytics**: Gain insights from admin dashboards.
-- **Settings & Configuration**: Customize system behavior.
-- **Secure Authentication**: Login and role-based access control.
-- **Backup & Recovery**: Automated backups for data protection.
-
----
-
-## 📂 Project Structure
-
-Refer to [Project Structure](./docs/project-structure.md) for a detailed file and folder architecture.
-
----
-
-## 🎨 UI Showcase
-
-### Login Screens
-| Empty Login | Filled Login |
-|------------|--------------|
-| ![Login Empty](screenshots/Login_Page_Empty.jpg) | ![Login Filled](screenshots/Login_Page_Filled.jpg) |
-
-### Admin Dashboard
 | Dashboard Light | Dashboard Dark | Bulk Operations |
-|-----------------|----------------|----------------|
-| ![Dashboard Light](screenshots/Admin_Dashboard_Page_A.jpg) | ![Dashboard Dark](screenshots/Dashboard_Dark.jpg) | ![Bulk Operations](screenshots/Dashboard_Page_Bulk.jpg) |
+|-----------------|----------------|-----------------|
+| ![Dashboard Light](Dashboard_Page_.jpg) | ![Dashboard Dark](Dashboard_Dark.jpg) | ![Bulk Ops](Dashboard_Page_Bulk.jpg) |
 
 ### Client Management
-| Client List | Create Client |
-|-------------|---------------|
-| ![Clients](screenshots/ClinetManagement_Page.jpg) | ![Create Client](screenshots/Create_Clinet_Form.jpg) |
+| Client List | Add Client Form |
+|-------------|-----------------|
+| ![Clients](ClinetManagement_Page.jpg) | ![Add Client](Create_Clinet_Form.jpg) |
 
 ### Invoice Management
-| Create Invoice | Invoice History | PDF Export |
-|----------------|----------------|------------|
-| ![Create Invoice](screenshots/Create_Invoce_Page.jpg) | ![Invoice History](screenshots/InvoiceHistory_Page.jpg) | ![Invoice PDF](Invoice_Pdf/INV-0014.pdf) |
+| Create Invoice | Invoice History |
+|----------------|-----------------|
+| ![Create Invoice](Create_Invoce_Page.jpg) | ![Invoice History](InvoiceHistory_Page.jpg) |
 
-### Settings
-| Settings Overview | Full Settings |
-|------------------|---------------|
-| ![Settings](screenshots/Settings_Page.jpg) | ![Full Settings](screenshots/Settings_Page_Full.jpg) |
+### Authentication & Settings
+| Login Page | Settings Page |
+|------------|---------------|
+| ![Login](Login_Page_Empty.jpg) | ![Settings](Settings_Page.jpg) |
 
----
-
-## ⚙️ Technical Highlights
-
-### Backend
-- **MVC Pattern** with separation of concerns
-- **Controllers**: Auth, Client, Invoice, Bulk, Email, Settings, Health
-- **Models**: MongoDB schemas for Client, Invoice, Settings
-- **Utilities**: PDF generation, backup automation, validation, and more
-
-### Frontend
-- **React + TypeScript** for type safety
-- **71+ UI Components** built with Shadcn/ui
-- **Pages**: 12 core pages including Dashboard, Clients, Invoices, Settings
-- **Tailwind CSS** for responsive UI
-
-### Production Features
-- Docker-ready deployment
-- API documentation in `docs/`
-- Automated data backups
-- Testing scripts for backend validation
+### PDF Output
+| Professional Invoice PDF |
+|--------------------------|
+| ![PDF](../Invoice_Pdf/INV-0014.pdf) |
 
 ---
 
-## 📚 Documentation
+## 🎯 Key Features Showcased
 
-- [API Overview](./docs/api-overview.md)  
-- [System Design](./docs/system-design.md)  
-- [Modules Summary](./docs/modules-summary.md)  
-- [UI Showcase](./docs/ui-showcase.md)  
-- [Purchase Process](./docs/purchase-process.md)  
-- [Startup Guide](./startup-guide.md)  
+- **Professional Dashboard** - Revenue analytics and business insights (3 admin views)
+- **Invoice Creation** - Step-by-step invoice builder with live preview  
+- **Client Management** - Complete CRM with search and filtering
+- **Bulk Operations** - Mass actions for efficiency
+- **PDF Generation** - Professional invoice output
+- **Responsive Design** - Works on all devices
+- **Dark/Light Mode** - User preference support
 
----
-
-*QuickBill Desk is designed for scalability, security, and ease of use for small to medium enterprises.*
+*All screenshots from the production-ready QuickBill Desk application*
