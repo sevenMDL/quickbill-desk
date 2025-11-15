@@ -29,7 +29,7 @@
 ### PDF Output
 | Professional Invoice PDF |
 |--------------------------|
-| ![PDF](PDF_Sample.png) |
+| ![PDF](PDF_Sample.jpg) |
 
 ---
 
