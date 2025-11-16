@@ -34,10 +34,10 @@
 
 When you buy QuickBill Desk, you get exclusive rights:
 
-· ✅ I will NEVER resell this code to anyone else
-· ✅ Your purchase is FINAL - no future copies will be sold
-· ✅ You become the SOLE owner of this codebase
-· ✅ The code is REMOVED from my inventory after your purchase
+- ✅ I will NEVER resell this code to anyone else
+- ✅ Your purchase is FINAL - no future copies will be sold
+- ✅ You become the SOLE owner of this codebase
+- ✅ The code is REMOVED from my inventory after your purchase
 
 This means your $799 investment buys you a unique, exclusive business asset that won't be diluted by multiple buyers.
 
@@ -130,9 +130,9 @@ Choose your preferred method:
 
 **What to Include:**
 
-· Preferred payment method
-· Any questions about exclusivity
-· Any technical questions or details you want to know
+- Preferred payment method
+- Any questions about exclusivity
+- Any technical questions or details you want to know
 
 **Response Time:** Within 24 hours  
 *Serious inquiries only - please review documentation first*
