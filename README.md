@@ -9,68 +9,46 @@ The **actual source code is private** and delivered **only after payment**.
 ---
 
 ## 🚀 Product Overview
-QuickBill Desk is a robust and scalable invoicing suite built with:
-
-- **Backend:** Node.js / Express  
-- **Frontend:** React + TypeScript  
-- **Database:** MongoDB  
-- **Authentication:** Secure JWT  
-- **PDF Engine:** Professional invoice PDF generator  
-- **Business Modules:** Invoices, Clients, Analytics, Bulk Operations, Backups
-
-Everything is built production-ready, modular, and cleanly architected.
+QuickBill Desk is a robust and scalable invoicing suite built with modern technologies. Everything is built production-ready, modular, and cleanly architected.
 
 ---
 
 ## 🎯 Key Features
 ### Invoicing
 - Create, update, delete, and manage invoices  
-- Auto-numbering system  
-- PDF invoice generation  
-- Multi-currency support  
-- Taxes, discounts, and totals  
+- Auto-numbering system with professional PDF generation
+- Multi-currency and tax support  
 - Invoice status control (draft, unpaid, paid, overdue)
 
 ### Client Management
-- Add and organize clients  
-- Search and filtering  
-- Bulk operations  
-- Notes and activity tracking
-
-### Communication
-- Email sending (bulk & individual)  
-- Attach PDFs automatically  
-- Email templates with dynamic variables
+- Complete client CRM with search and filtering
+- Bulk operations and import/export functionality
+- Communication history and notes tracking
 
 ### Dashboard & Analytics
-- Revenue charts  
-- Recent invoices  
-- Client activity  
-- Monthly summaries
+- Revenue charts and business insights
+- Client activity monitoring
+- Monthly performance summaries
 
 ### System & Security
-- Automated backups  
-- Encrypted data handling  
-- Rate limiting & validation  
-- Error logging  
-- Roles-ready modular system
+- Automated backups and data protection
+- Secure authentication and role-based access
+- Comprehensive audit logging
 
 ---
 
 ## 📐 System Architecture (Documentation Only)
-This repository includes high-level documentation describing:
+This repository includes high-level documentation describing the complete system architecture and workflows.
 
-- System overview  
-- Backend structure  
-- Frontend architecture  
-- Module interaction  
-- API summary  
-- Deployment flow  
+**Explore the documentation:**
+- [Features Overview](docs/features.md) - Complete feature list
+- [System Design](docs/system-design.md) - Architecture overview  
+- [API Overview](docs/api-overview.md) - REST API documentation
+- [UI/UX Showcase](docs/ui-showcase.md) - Interface design
+- [Code Showcase](docs/code-showcase.md) - Technical implementation examples
+- [Project Structure](docs/project-structure.md) - Codebase organization
 
-No code is included.
-
-Detailed docs are inside:  
-`docs/`
+*No actual source code is included in this repository.*
 
 ---
 
@@ -81,14 +59,15 @@ This repo is **documentation-only** and fully safe to share publicly.
 If you wish to purchase the full code package:
 
 ### **Included with purchase:**
-- Full backend source code  
-- Full frontend source code  
-- MongoDB schemas & models  
-- Deployment-ready build  
-- Documentation  
-- All commercial rights  
-- One-time transfer of ownership  
-- Support during setup  
+- Full backend source code (Node.js/Express)
+- Full frontend source code (React + TypeScript) 
+- MongoDB schemas & models
+- Professional PDF generation engine
+- Email template system
+- Deployment-ready configurations
+- Complete documentation
+- All commercial rights
+- One-time transfer of ownership
 
 ---
 
@@ -101,15 +80,14 @@ If you wish to purchase the full code package:
 
 ---
 
-## 💬 Contact
+## 💬 Contact & Purchase
 To inquire about purchasing the full source code:
 
-**Email:** omersaif090@gmail.com  
-**GitHub Discussions:** Open an issue in this repo (no code requests)
+**Email:** quickbill.desk@gmail.com  
+**Purchase Process:** [See detailed purchase information](docs/purchase-process.md)
 
 ---
 
 ## 📄 License
-This documentation is licensed as:  
-**“All Rights Reserved – Source code distributed only after purchase.”**
-
+This documentation is proprietary. Source code distributed only after purchase.  
+See [LICENSE](LICENSE) for complete terms and conditions.
