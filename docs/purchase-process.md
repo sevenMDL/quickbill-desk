@@ -148,7 +148,7 @@ Choose your preferred method:
 
 ---
 
-One payment. Exclusive ownership. Code removed from market.
-Your $799 buys a unique business asset that won't be resold.
+- One payment. Exclusive ownership. Code removed from market.
+- Your $799 buys a unique business asset that won't be resold.
 
 **Limited Availability** - Once sold, this codebase is gone forever from the market.
