@@ -63,15 +63,15 @@ Tell us about your project and we'll confirm current availability
 
 **2. Make Payment**
 Choose your preferred method:
-· 💳 Credit/Debit Card (Stripe/PayPal)
-· ₿ Cryptocurrency (BTC, ETH, USDT)
-· ₿ Binance (BTC, ETH, USDT)
+- 💳 Credit/Debit Card (Stripe/PayPal)
+- ₿ Cryptocurrency (BTC, ETH, USDT)
+- ₿ Binance (BTC, ETH, USDT)
 
 **3. Get Exclusive Access**
-· Immediate secure download link
-· Complete source code transfer
-· Documentation & setup guides
-· Code removed from sale permanently
+- Immediate secure download link
+- Complete source code transfer
+- Documentation & setup guides
+- Code removed from sale permanently
 
 ---
 
@@ -100,25 +100,25 @@ Choose your preferred method:
 
 **You Can:**
 
-· Use for your business or agency
-· Modify and customize as needed
-· Deploy for multiple clients
-· White-label under your brand
-· Keep all profits from your usage
-· Be the exclusive owner of this codebase
-· Resell your customized version
-· Add to your product portfolio
+- Use for your business or agency
+- Modify and customize as needed
+- Deploy for multiple clients
+- White-label under your brand
+- Keep all profits from your usage
+- Be the exclusive owner of this codebase
+- Resell your customized version
+- Add to your product portfolio
 
 ---
 
 ## ⚠️ Important Notes
 
-· No technical support included
-· No updates or bug fixes
-· No refunds after delivery
-· Code provided "as-is"
-· You assume all responsibility
-· Due diligence recommended before purchase
+- No technical support included
+- No updates or bug fixes
+- No refunds after delivery
+- Code provided "as-is"
+- You assume all responsibility
+- Due diligence recommended before purchase
 
 ---
 
@@ -141,10 +141,10 @@ Choose your preferred method:
 
 ## 🎁 Bonus: Immediate Value Realization
 
-· Day 1: Have a professional invoicing system running
-· Week 1: Start billing clients and generating revenue
-· Month 1: Recover your investment through client usage
-· Year 1: Save $3,000+ vs SaaS subscriptions
+- Day 1: Have a professional invoicing system running
+- Week 1: Start billing clients and generating revenue
+- Month 1: Recover your investment through client usage
+- Year 1: Save $3,000+ vs SaaS subscriptions
 
 ---
 
