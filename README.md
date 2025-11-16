@@ -1,10 +1,15 @@
 # QuickBill Desk – Professional Invoicing & Client Management System  
 **Documentation-Only Repository • No Source Code Included**
 
-QuickBill Desk is a full-stack, production-ready invoicing and business management platform designed for freelancers, agencies, and SaaS founders who want a complete billing solution without spending months building it.
+**Versatile Codebase for Multiple Business Models**
 
-This repository contains **high-level documentation only**.  
-The **actual source code is private** and delivered **only after payment**.
+This is a production-ready invoicing platform that gives you complete flexibility:
+- **Self-Hosted Solution** - Run locally for your business
+- **SaaS Platform** - Host for multiple paying customers  
+- **Desktop Software** - License to end-users
+- **White-Label Service** - Resell to agencies and businesses
+
+The modular architecture supports all these deployment scenarios.
 
 ---
 
@@ -72,18 +77,26 @@ If you wish to purchase the full code package:
 ---
 
 ## 💼 Ideal Buyers
-- SaaS founders starting an invoicing product  
-- Agencies offering billing solutions  
-- Freelancers wanting to productize a tool  
-- Developers needing a ready-made foundation  
-- Businesses needing internal invoicing software  
+
+### For Self-Hosted Use:
+- Freelancers wanting professional invoicing
+- Small businesses needing internal billing software
+- Individuals preferring local data storage
+
+### For Commercial Development:
+- Developers building SaaS products
+- Agencies creating white-label solutions  
+- Entrepreneurs launching billing platforms
+- Businesses licensing to end-users
 
 ---
 
 ## 💬 Contact & Purchase
 To inquire about purchasing the full source code:
 
-**Email:** quickbill.desk@gmail.com  
+**Ready to own this codebase?**  
+**Email:** quickbill.desk@gmail.com
+
 **Purchase Process:** [See detailed purchase information](docs/purchase-process.md)
 
 ---
@@ -91,3 +104,12 @@ To inquire about purchasing the full source code:
 ## 📄 License
 This documentation is proprietary. Source code distributed only after purchase.  
 See [LICENSE](LICENSE) for complete terms and conditions.
+
+---
+
+## 📝 Important Note
+
+This repository contains **high-level documentation and overview materials only**.  
+The **complete source code is kept private** and delivered **only after successful purchase**.
+
+

@@ -341,4 +341,4 @@ Security & Compliance
 
 This is not just code - it's a professionally engineered business solution that would take 200+ hours to develop from scratch.
 
-Your $799 investment saves you weeks of development time and delivers immediate business value.
+Your $497 investment saves you weeks of development time and delivers immediate business value.

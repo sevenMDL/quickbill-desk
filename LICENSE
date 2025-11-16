@@ -9,12 +9,13 @@ NOTICE: This software is governed by a proprietary license. By accessing, review
 Upon successful payment confirmation,all copyright and intellectual property rights for the QuickBill Desk source code are permanently and exclusively assigned to the Buyer. The Seller surrenders all ownership claims and will not maintain any copies for distribution or future use.
 
 2. GRANT OF RIGHTS
-Following the ownership transfer,the Buyer receives full, exclusive, and perpetual rights to:
+Following ownership transfer,the Buyer receives full, exclusive, and perpetual rights to:
 
-· Use, modify, and enhance the source code for any commercial or personal projects
-· Deploy the software as a commercial service, white-label solution, or internal system
-· Resell, license, or distribute modified versions of the application
-· Integrate the platform with any third-party services and APIs
+· Use as a self-hosted application for personal or business use
+· Modify into a multi-tenant SaaS platform
+· License as desktop software for end-user installations
+· Resell as a white-labeled solution to clients
+· Adapt for any commercial or personal projects
 
 3. TECHNICAL SUPPORT TERMS
 The Seller provides limited technical assistance under these conditions:

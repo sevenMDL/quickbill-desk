@@ -29,7 +29,7 @@ QuickBill Desk transforms how small businesses manage their billing and client r
 5. **Integration**: All billing functions in one platform
 
 ### Revenue Streams
-- SaaS subscription model
+- Business Model: Self-hosted application with one-time payment
 - Tiered pricing based on features
 - Additional services (customization, support)
 
