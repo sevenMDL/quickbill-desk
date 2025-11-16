@@ -1,14 +1,14 @@
-#QuickBill Desk - Deployment Guide
+QuickBill Desk - Deployment Guide
 
-##🚀 Automated Setup (Recommended)
+🚀 Automated Setup (Recommended)
 
-###Prerequisites
+Prerequisites
 
 · Docker and Docker Compose installed
 · Node.js 18+ (for development)
 · Git
 
-###One-Command Deployment
+One-Command Deployment
 
 ```bash
 # Clone the repository
@@ -19,7 +19,7 @@ cd quickbill-desk
 ./setup.sh
 ```
 
-###What the Setup Script Does
+What the Setup Script Does
 
 1. Environment Validation
 
@@ -39,9 +39,9 @@ cd quickbill-desk
 · Launches backend API with health checks
 · Deploys frontend with production build
 
-##🛠️ Manual Installation
+🛠️ Manual Installation
 
-###Backend Setup
+Backend Setup
 
 ```bash
 cd backend
@@ -60,7 +60,7 @@ npm run dev
 npm start
 ```
 
-###Frontend Setup
+Frontend Setup
 
 ```bash
 cd frontend
@@ -80,7 +80,7 @@ npm run build
 npm run preview
 ```
 
-###Database Setup
+Database Setup
 
 ```bash
 # Using Docker (recommended)
@@ -94,9 +94,9 @@ docker run -d \
 # Follow official MongoDB installation guide
 ```
 
-###📊 Service Configuration
+📊 Service Configuration
 
-##Environment Variables
+Environment Variables
 
 Backend (.env)
 
@@ -115,7 +115,7 @@ VITE_API_URL=http://localhost:3001/api
 VITE_APP_NAME=QuickBill Desk
 ```
 
-##🔧 Production Deployment
+🔧 Production Deployment
 
 Using Docker Compose (Recommended for Production)
 
@@ -158,7 +158,7 @@ Deploy with:
 docker-compose -f docker-compose.prod.yml up -d
 ```
 
-##🔍 Health Verification
+🔍 Health Verification
 
 Check Service Status
 
@@ -181,7 +181,7 @@ curl http://localhost:3001/api/health
 curl -I http://localhost:3000
 ```
 
-###Monitor Logs
+Monitor Logs
 
 ```bash
 # Docker Compose logs
@@ -193,9 +193,9 @@ docker-compose logs frontend
 docker-compose logs mongodb
 ```
 
-##⚙️ Configuration Management
+⚙️ Configuration Management
 
-###Security Checklist
+Security Checklist
 
 · Change default passwords in production
 · Configure SSL certificates
@@ -203,7 +203,7 @@ docker-compose logs mongodb
 · Enable database authentication
 · Configure backup strategy
 
-###Performance Optimization
+Performance Optimization
 
 · Enable gzip compression
 · Configure CDN for static assets
@@ -211,7 +211,7 @@ docker-compose logs mongodb
 · Configure caching headers
 · Optimize frontend build
 
-##🚨 Troubleshooting
+🚨 Troubleshooting
 
 Common Issues
 
@@ -263,6 +263,19 @@ docker exec quickbill-mongodb mongodump --out /backup/$(date +%Y%m%d)
 tar -czf quickbill-backup-$(date +%Y%m%d).tar.gz ./data
 ```
 
+Update Procedure
+
+```bash
+# Pull latest changes
+git pull origin main
+
+# Rebuild and restart
+docker-compose down
+docker-compose build --no-cache
+docker-compose up -d
+```
+
+🆘 Support
 
 Emergency Recovery
 
@@ -274,3 +287,7 @@ Emergency Recovery
 # Database recovery
 docker-compose exec mongodb mongorestore /backup/latest/
 ```
+
+---
+
+Need additional help? Contact support at quickbill.desk@gmail.com
