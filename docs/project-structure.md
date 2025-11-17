@@ -36,7 +36,7 @@ quickbill-desk/
 - **20,491 total lines** of production code
 - **7,807 lines** backend (Node.js/Express + MongoDB)
 - **12,684 lines** frontend (React + TypeScript)
-- 71+ reusable UI components
+- 50+ reusable UI components
 - 39 documented API endpoints
 - Full-stack implementation
 

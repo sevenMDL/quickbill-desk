@@ -9,7 +9,7 @@
 - **Responsive Layout**: Adaptable experience across desktop and mobile devices
 
 ### Component Library
-- **71+ UI Components**: Comprehensive building blocks built on Shadcn/ui
+- **50+ UI Components**: Comprehensive building blocks built on Shadcn/ui
 - **Professional Foundation**: Industry-standard components with financial enhancements
 - **Tailored Design System**: Components designed for invoicing workflows
 - **Accessible Components**: WCAG compliant elements with proper ARIA labels
