@@ -3,7 +3,7 @@
 ## 🧾 Core Invoicing
 
 ### Professional Invoice Creation
-- - **Professional Template**: Clean, modern invoice design that looks great
+- **Professional Template**: Clean, modern invoice design that looks great
 - **Auto-numbering**: Sequential invoice numbers with custom prefixes
 - **Brand Customization**: Business logos and branding elements
 - **Tax Calculation**: Automatic tax calculations with configurable rates
@@ -105,5 +105,4 @@
 - **Recurring Invoices**: Automated regular billing
 - **Payment Reminders**: Automatic overdue payment notifications
 - **Backup Automation**: Scheduled data protection
-- **Report Generation**: Automated business intelligence reports
 

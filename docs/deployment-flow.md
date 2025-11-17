@@ -201,17 +201,6 @@ Required for Deployment
 
 ---
 
-⚠️ Important Reality Check
-
-You Are Responsible For
-
-· Server maintenance
-· Database backups (Atlas automates this)
-· SSL certificates
-· Security hardening
-· Troubleshooting and monitoring
-· Email configuration
-
 Included in the Codebase
 
 ✔ Production-ready backend & frontend
@@ -253,19 +242,6 @@ After Deployment
 ---
 
 💡 Support & Next Steps
-
-Included Support
-
-· Documentation
-· Environment variable templates
-· Basic setup guidance
-
-Not Included
-
-· Custom development
-· Managed hosting
-· Server maintenance
-· Bug fixes or updates
 
 If Issues Arise:
 
