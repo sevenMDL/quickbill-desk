@@ -7,8 +7,8 @@ QuickBill Desk provides a comprehensive RESTful API following industry best prac
 ## 🔐 Authentication
 
 ### Security Framework
-- **JWT-based Authentication**: Secure token-based access
-- **Role-based Authorization**: Granular permission controls
+- **Route Protection**: JWT authentication for API access"
+- **Basic Access Control**: Authentication required for all endpoints"
 - **Rate Limiting**: API abuse prevention
 - **Cross-Origin Protection**: Allow only the domains and IPs specified in the configuration
 
