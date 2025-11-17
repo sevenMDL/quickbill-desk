@@ -3,7 +3,7 @@
 ## 🧾 Core Invoicing
 
 ### Professional Invoice Creation
-- **Template System**: Multiple professional invoice templates
+- - **Professional Template**: Clean, modern invoice design that looks great
 - **Auto-numbering**: Sequential invoice numbers with custom prefixes
 - **Brand Customization**: Business logos and branding elements
 - **Tax Calculation**: Automatic tax calculations with configurable rates
@@ -21,11 +21,8 @@
 ## 👥 Client Management
 
 ### Client Database
-- **Complete Profiles**: Name, email, phone, address, notes
+- **Complete Profiles**: Name, email, phone, address
 - **Search Capabilities**: Quick search by name or email
-- **Bulk Operations**: Manage multiple clients at once
-- **Import/Export**: CSV import and export functionality
-- **Contact History**: Track all communications with each client
 
 ### Relationship Management
 - **Invoice History**: All invoices for each client in one place
@@ -63,13 +60,10 @@
 - **Client Statements**: Comprehensive client billing history
 - **Aging Reports**: Outstanding payments analysis
 
-## 🔒 Security & Administration
-
-### Access Control
-- **Role-based Access**: Admin and user permission levels
-- **Authentication**: Secure login with JWT tokens
-- **Session Management**: Secure session handling
-- **Audit Logs**: Complete action tracking and history
+## 🔒 Access & Security
+- **Admin-level Security**: Enterprise-grade authentication and session management
+- **Single User Access**: Designed for business owners/freelancers (no complex user management needed)
+- **Secure Session Handling**: JWT-based authentication with proper security measures
 
 ### Data Protection
 - **Encryption**: Secure data storage and transmission
@@ -101,7 +95,6 @@
 - **Accessibility**: WCAG compliant for users with disabilities
 
 ### Productivity Features
-- **Keyboard Shortcuts**: Power user efficiency features
 - **Bulk Actions**: Time-saving multi-select operations
 - **Quick Filters**: Rapid data filtering and sorting
 - **Search Optimization**: Fast and accurate search functionality
@@ -114,8 +107,3 @@
 - **Backup Automation**: Scheduled data protection
 - **Report Generation**: Automated business intelligence reports
 
-### Workflow Automation
-- **Approval Processes**: Configurable invoice approval workflows
-- **Notification System**: Smart alerts and reminders
-- **Template Automation**: Smart field population and calculations
-- **Status Updates**: Automatic invoice status changes

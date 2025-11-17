@@ -2,7 +2,7 @@
 
 ## 🏗️ System Architecture Overview
 
-QuickBill Desk follows a modular monolith architecture with clear separation of concerns, making it maintainable, testable, and scalable.
+QuickBill Desk follows a well-organized modular structure with clear separation of concerns, making it maintainable and testable.
 
 ## 📦 Core Modules
 
@@ -11,7 +11,7 @@ QuickBill Desk follows a modular monolith architecture with clear separation of 
 
 **Key Capabilities**:
 - User authentication with JWT tokens
-- Role-based access control (Admin/User)
+- Basic role-based access (Admin/User)
 - Session management and security
 - Password policies and reset functionality
 
@@ -30,14 +30,14 @@ QuickBill Desk follows a modular monolith architecture with clear separation of 
 **Integration Points**: Client management, Email system, Reporting
 
 ### Client Management  
-**Purpose**: Centralized client information and relationship management
+**Purpose**: Centralized client information management
 
 **Key Capabilities**:
 - Client profile management
 - Contact information storage
 - Invoice history per client
 - Communication tracking
-- Import/export functionality
+- Data backup and restore functionality
 
 **Integration Points**: Invoice management, Email system
 
@@ -54,26 +54,24 @@ QuickBill Desk follows a modular monolith architecture with clear separation of 
 **Integration Points**: Invoice management, Client management
 
 ### Reporting & Analytics
-**Purpose**: Business intelligence and performance insights
+**Purpose**: Business insights and performance tracking
 
 **Key Capabilities**:
-- Revenue analytics and trends
+- Revenue reporting and basic trends
 - Invoice status reporting
-- Client payment behavior
-- Export capabilities
-- Dashboard visualization
+- Client payment tracking
+- API data for reporting
 
-**Integration Points**: All data modules for comprehensive reporting
+**Integration Points**: All data modules for reporting
 
 ### Backup & Security
 **Purpose**: Data protection and system integrity
 
 **Key Capabilities**:
 - Automated backup scheduling
-- Encryption and data security
-- Audit logging
+- Data encryption and security
+- Activity logging
 - System health monitoring
-- Recovery procedures
 
 **Integration Points**: All system modules for data protection
 
@@ -87,13 +85,12 @@ QuickBill Desk follows a modular monolith architecture with clear separation of 
    Client Search → Profile Management → Invoice History → Communication Logging
 
 3. **Reporting Flow**:
-   Data Aggregation → Analysis → Visualization → Export
+   Data Collection → Basic Analysis → Results Display
 
-### Integration Architecture
-- **Loose Coupling**: Modules interact through well-defined interfaces
-- **Event-Driven**: Certain actions trigger cross-module events
+### Integration Approach
+- **Clear Interfaces**: Modules interact through defined interfaces
 - **Data Consistency**: Shared data models ensure consistency
-- **Error Isolation**: Module failures don't cascade through system
+- **Error Handling**: Basic error management between modules
 
 ## 🎯 Technical Module Characteristics
 
@@ -101,7 +98,7 @@ QuickBill Desk follows a modular monolith architecture with clear separation of 
 - **Component-Based**: Reusable React components
 - **State Management**: Predictable data flow
 - **API Integration**: Consistent backend communication
-- **Error Handling**: Graceful failure management
+- **Error Handling**: Basic failure management
 
 ### Backend Modules
 - **Service Layer**: Business logic separation
@@ -109,16 +106,16 @@ QuickBill Desk follows a modular monolith architecture with clear separation of 
 - **Validation**: Input and business rule validation
 - **Logging**: Comprehensive activity tracking
 
-## 🔮 Extensibility Points
+## 🔮 Future Enhancement Opportunities
 
-### Plugin Architecture
-- **Hook System**: Custom business logic injection
-- **Event System**: Custom action triggers
-- **Template System**: Customizable outputs
-- **API Extensions**: Additional endpoint integration
+### Potential Extensions
+- **Custom Business Logic**: Additional workflow options
+- **Integration Points**: External service connections
+- **Template Customization**: Flexible output formatting
+- **API Expansion**: Additional endpoint capabilities
 
-### Integration Capabilities
-- **Payment Gateways**: Stripe, PayPal, etc.
-- **Accounting Software**: QuickBooks, Xero integration
+### Integration Possibilities
+- **Accounting Software**: Financial system connections
 - **CRM Systems**: Client data synchronization
-- **Custom Exports**: Specialized reporting formats
+- **Custom Reporting**: Specialized export formats
+- **Data Export**: Enhanced data export capabilities

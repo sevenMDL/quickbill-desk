@@ -1,56 +1,62 @@
 # System Design – High-Level Architecture Overview
 
 ## 🏗️ Architecture Summary
-QuickBill Desk follows a **modular monolith architecture**, designed for maintainability, scalability, and testability.  
+QuickBill Desk follows a **modular monolith architecture**, designed for maintainability and testability.
 Modules interact through clearly defined interfaces without exposing implementation details.
 
 ---
 
 ## 🖥️ System Components
 
-┌───────────────┐    ┌───────────────┐    ┌───────────────┐ │  Frontend     │ ◄─►│  Backend API   │ ◄─►│   Database    │ │  (React/TS)   │    │  (Node.js)    │    │  (MongoDB)    │ └───────────────┘    └───────────────┘    └───────────────┘ │                    │                    │ ┌───────────────┐  ┌───────────────┐    ┌───────────────┐ │ Email Service │  │  File Storage  │    │ Backup System │ │   (SMTP)      │  │ (Local/Cloud) │    │  (Encrypted)  │ └───────────────┘  └───────────────┘    └───────────────┘
+
+┌───────────────┐    ┌───────────────┐    ┌───────────────┐
+│Frontend     │ ◄─►│  Backend API   │ ◄─►│   Database    │
+│(React/TS)   │    │  (Node.js)    │    │  (MongoDB)    │
+└───────────────┘└───────────────┘    └───────────────┘
+│                    │
+┌───────────────┐    ┌───────────────┐
+│ Email Service │    │ Backup System │
+│   (SMTP)      │    │  (Encrypted)  │
+└───────────────┘    └───────────────┘
 
 ---
 
 ## 🔄 Data Flow Overview
 1. **User Requests:** Frontend → Backend API → Database → Response  
-2. **Background Jobs:** Backend → External Systems → Storage / Email  
-3. **File Operations:** Backend → Storage → Frontend / Client  
+2. **Background Jobs:** Backend → Email System → Client Communication  
+3. **File Operations:** Backend → PDF Generation → Email Delivery  
 
 ---
 
 ## 💾 Database Strategy
 - **MongoDB Document Store:** Flexible schema for business data  
-- **Optimized Indexing:** Fast queries for invoices, clients, analytics  
-- **Data Relationships:** Efficient linking of clients, invoices, payments  
+- **Optimized Indexing:** Fast queries for invoices and clients
+- **Data Relationships:** Efficient linking of clients and invoices
 - **Backup Strategy:** Automated, encrypted backups  
 
 ---
 
-## 🏗️ Modules Overview (Conceptual)
-### Authentication & Authorization
-- Secure JWT authentication  
-- Role-based access control  
-- Session management & security  
+## 🏗️ Modules Overview
+### Authentication & Security
+- Secure JWT authentication
+- Admin-level access control
+- Session management & security
+- Input validation and security headers
 
 ### Invoice Management
 - Invoice creation, update, deletion  
 - Status tracking & numbering  
-- PDF generation (conceptual)  
+- PDF generation and management
 
 ### Client Management
-- Centralized client info & history  
-- Bulk operations and search  
+- Complete client profiles
+- Search and filter clients
+- Client billing history
 
 ### Email System
 - Template-based emails  
 - PDF attachments  
 - Delivery status tracking  
-
-### Reporting & Analytics
-- Revenue and invoice analytics  
-- Client insights  
-- Export capabilities  
 
 ### Backup & Security
 - Automated encrypted backups  
@@ -60,64 +66,38 @@ Modules interact through clearly defined interfaces without exposing implementat
 
 ## 🔄 Module Interactions
 - **Invoice Flow:** Auth → Client → Invoice → Email → Status  
-- **Client Flow:** Search → Profile → History → Notes  
-- **Reporting Flow:** Aggregate → Analyze → Visualize → Export  
+- **Client Flow:** Search → Profile → History   
+- **Reporting Flow:** Data Collection → Basic Analysis → Display
 
 **Design Principles:**  
-- Loose coupling between modules  
-- Event-driven interactions  
-- Error isolation  
+- Clear interfaces between modules  
+- Consistent error handling  
+- Reliable data processing
 
 ---
 
-## 🛡️ Security Overview
-- Network: HTTPS, CORS configuration  
-- Application: Input validation, output encoding  
-- Data: Encryption at rest and in transit  
-- Access: Role-based permissions, audit logs  
-
 **Authentication Flow:**
-
 Login → Validate → JWT Generation → Token Validation → Access Granted
 
 ---
 
-## 📊 Performance & Scaling
-- Optimized queries and caching  
-- Lazy-loading assets for frontend  
-- Horizontal API scaling  
-- Database sharding potential  
-- Load balancing for high traffic  
+## 📊 Performance & Reliability
+- Optimized database queries
+- Efficient frontend loading
+- Production-ready architecture
+- Reliable data handling
 
 ---
 
-## 🎯 Architecture Flexibility
+## 🚀 Deployment Ready
+- **Development:** Easy local setup
+- **Production:** Deployment-ready configuration
+- **Data Safety:** Built-in backup system
 
-This codebase is engineered for multiple deployment scenarios:
+**Dependencies:** MongoDB, Node.js, SMTP
 
-**Self-Hosted Mode:**
-- Single-user installation
-- Local database
-- Desktop application feel
-
-**SaaS Conversion Ready:**
-- Modular architecture supports multi-tenancy
-- Easy user management additions
-- Scalable database design
-
-**Desktop Licensing:**
-- Can be packaged for end-user installation
-- Supports per-user licensing models
-- Offline-capable design
-
-## 🚀 Deployment Concept (High-Level)
-- **Development:** Hot-reload, debug tools  
-- **Staging:** Production-like environment  
-- **Production:** Optimized, monitored, and backed up  
-
-**Dependencies:** MongoDB, Node.js, SMTP, Storage, Optional payment gateway
-
-**Reliability:**  
-- Fault tolerance, graceful degradation, backup & recovery  
-- Health checks, monitoring, alerting  
+**System Reliability:**
+- Automated backup and recovery
+- Health status monitoring
+- Comprehensive error tracking
 

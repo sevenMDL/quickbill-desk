@@ -10,11 +10,10 @@ QuickBill Desk provides a comprehensive RESTful API following industry best prac
 - **JWT-based Authentication**: Secure token-based access
 - **Role-based Authorization**: Granular permission controls
 - **Rate Limiting**: API abuse prevention
-- **HTTPS Enforcement**: All communications encrypted
+- **Cross-Origin Protection**: Allow only the domains and IPs specified in the configuration
 
 ### Access Patterns
 - Token-based session management
-- Automatic token refresh capabilities
 - Secure credential handling
 - Session timeout enforcement
 
@@ -23,8 +22,7 @@ QuickBill Desk provides a comprehensive RESTful API following industry best prac
 ### Core Resources
 
 #### Authentication Endpoints
-- User login and token management
-- Password reset functionality
+- Admin login and token management
 - Session validation
 - Logout procedures
 
@@ -38,7 +36,6 @@ QuickBill Desk provides a comprehensive RESTful API following industry best prac
 - Client profile management
 - Contact information handling
 - Relationship tracking
-- Import/export operations
 
 ### Business Operations
 
@@ -51,7 +48,6 @@ QuickBill Desk provides a comprehensive RESTful API following industry best prac
 #### Reporting & Analytics
 - Business intelligence data
 - Revenue analytics
-- Client behavior insights
 - Export functionality
 
 ### System Administration
@@ -65,16 +61,12 @@ QuickBill Desk provides a comprehensive RESTful API following industry best prac
 #### System Health
 - Service status monitoring
 - Performance metrics
-- Resource utilization
-- Error tracking
 
 ## 🔄 API Characteristics
 
 ### Response Standards
-- **Consistent Format**: Uniform response structure across all endpoints
 - **Error Handling**: Comprehensive error codes and messages
 - **Pagination**: Large dataset handling with cursor-based pagination
-- **Filtering**: Advanced filtering and sorting capabilities
 
 ### Performance Features
 - **Caching Support**: Appropriate caching headers and strategies
@@ -95,20 +87,6 @@ QuickBill Desk provides a comprehensive RESTful API following industry best prac
 - **Performance Monitoring**: Response time tracking
 - **Error Tracking**: Comprehensive error logging
 - **Usage Analytics**: API consumption metrics
-
-## 🔌 Integration Patterns
-
-### Webhook Support
-- **Event Notifications**: Real-time event publishing
-- **Custom Webhooks**: User-configurable endpoints
-- **Retry Logic**: Failed delivery handling
-- **Payload Signing**: Webhook verification
-
-### Third-party Integration
-- **OAuth Support**: Third-party authentication
-- **Web Services**: External system integration
-- **Data Synchronization**: Bidirectional data sync
-- **API Versioning**: Backward compatibility
 
 ## 📚 Documentation
 
