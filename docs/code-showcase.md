@@ -186,7 +186,7 @@ Key Features Demonstrated:
 
 ---
 
-Enterprise API Client
+Professional API Client
 
 File: frontend/src/lib/api.ts - 44KB of robust API layer
 

@@ -5,7 +5,7 @@
 
 This is a production-ready invoicing platform that gives you complete flexibility:
 - **Self-Hosted Solution** - Run locally for your business
-- **SaaS Platform** - Host for multiple paying customers  
+- **Self-hosted platform** - Host for multiple paying customers  
 - **Desktop Software** - License to end-users
 - **White-Label Service** - Resell to agencies and businesses
 
@@ -84,7 +84,7 @@ If you wish to purchase the full code package:
 - Individuals preferring local data storage
 
 ### For Commercial Development:
-- Developers building SaaS products
+- Developers building self-hosted or multi-tenant platforms
 - Agencies creating white-label solutions  
 - Entrepreneurs launching billing platforms
 - Businesses licensing to end-users

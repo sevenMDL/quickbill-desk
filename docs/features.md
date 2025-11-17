@@ -61,7 +61,7 @@
 - **Aging Reports**: Outstanding payments analysis
 
 ## 🔒 Access & Security
-- **Admin-level Security**: Enterprise-grade authentication and session management
+- **Admin-level Security**: Professional-grade authentication and session management
 - **Single User Access**: Designed for business owners/freelancers (no complex user management needed)
 - **Secure Session Handling**: JWT-based authentication with proper security measures
 

@@ -38,7 +38,7 @@ QuickBill Desk provides small businesses with a professional, self-hosted invoic
 
 ### Key Advantages
 - **Comprehensive Feature Set**: Complete invoicing workflow
-- **Professional Quality**: Enterprise-grade PDF generation
+- **Professional Quality**: Professional-grade PDF generation
 - **Modern Architecture**: Clean, maintainable codebase
 - **Customization Ready**: Easy to modify and extend
 - **One-time Cost**: No ongoing subscription fees
