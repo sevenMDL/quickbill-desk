@@ -124,7 +124,7 @@ Choose your preferred method:
 - No updates or bug fixes
 - No refunds after delivery
 - Code provided "as-is"
-- You assume all responsibility
+- You assume all responsibility, including configuration and deployment
 - Due diligence recommended before purchase
 
 ---
@@ -146,12 +146,13 @@ Choose your preferred method:
 
 ---
 
-## 🎁 Bonus: Immediate Value Realization
+## 🎯 Realistic Value Timeline
 
-- Day 1: Have a professional invoicing system running
-- Week 1: Start billing clients and generating revenue
-- Month 1: Recover your investment through client usage
-- Year 1: Save $3,000+ vs SaaS subscriptions
+**With proper setup and client outreach:**
+- **Day 1:** Launch your professional invoicing system
+- **Week 1:** Start invoicing clients
+- **Month 1:** Begin recouping your investment
+- **Year 1:** Save $3,000+ versus recurring SaaS subscriptions
 
 ---
 
