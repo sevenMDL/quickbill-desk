@@ -11,33 +11,31 @@ Prerequisites
 One-Command Deployment
 
 ```bash
-# Clone the repository
-git clone <repository-url>
+# Download the codebase zip file
+unzip quickbill-desk-v1.0.0.zip
 cd quickbill-desk
 
 # Run automated setup
-./setup.sh
+bash ./setup.sh
 ```
 
 What the Setup Script Does
 
-1. Environment Validation
+The setup.sh script is a dedicated dependency installer that prepares the QuickBill Desk environment for immediate use.
 
-· Verifies Docker installation and permissions
-· Checks available ports (3000, 3001, 27017)
-· Validates system resources
+1. Backend Dependencies
 
-2. Configuration Setup
+Installs all required Node.js packages for the backend
 
-· Generates environment files with secure defaults
-· Sets up necessary directories with proper permissions
-· Configures database initialization
+Ensures a reliable and consistent environment for API execution
 
-3. Service Deployment
 
-· Starts MongoDB with persistent storage
-· Launches backend API with health checks
-· Deploys frontend with production build
+2. Frontend Dependencies
+
+Installs all frontend Node.js packages and libraries
+
+Prepares the frontend for development or production builds
+
 
 🛠️ Manual Installation
 
@@ -53,10 +51,7 @@ npm install
 cp .env.example .env
 # Edit .env with your settings
 
-# Start development server
-npm run dev
-
-# Or production server
+# Start the  server
 npm start
 ```
 
@@ -67,10 +62,6 @@ cd frontend
 
 # Install dependencies
 npm install
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your settings
 
 # Start development server
 npm run dev
@@ -108,12 +99,11 @@ JWT_SECRET=your-secret-key
 FRONTEND_URL=http://localhost:3000
 ```
 
-Frontend (.env)
+Frontend Configuration
 
-```env
-VITE_API_URL=http://localhost:3001/api
-VITE_APP_NAME=QuickBill Desk
-```
+The frontend does not use a .env file.
+All configuration, including the backend API URL, debug mode, and mock data settings, is hardcoded in src/lib/api.ts.
+To change endpoints or settings, edit this file directly. This ensures consistent behavior across all environments.
 
 🔧 Production Deployment
 
@@ -166,19 +156,6 @@ Check Service Status
 # Backend health check
 curl http://localhost:3001/api/health
 
-# Expected response:
-{
-  "status": "healthy",
-  "timestamp": "2025-01-15T10:30:00.000Z",
-  "version": "1.0.0",
-  "services": {
-    "database": "connected",
-    "memory": "healthy"
-  }
-}
-
-# Frontend status
-curl -I http://localhost:3000
 ```
 
 Monitor Logs
@@ -187,10 +164,6 @@ Monitor Logs
 # Docker Compose logs
 docker-compose logs -f
 
-# Individual service logs
-docker-compose logs backend
-docker-compose logs frontend
-docker-compose logs mongodb
 ```
 
 ⚙️ Configuration Management
@@ -259,20 +232,6 @@ Backup Strategy
 # Database backup
 docker exec quickbill-mongodb mongodump --out /backup/$(date +%Y%m%d)
 
-# Application data backup
-tar -czf quickbill-backup-$(date +%Y%m%d).tar.gz ./data
-```
-
-Update Procedure
-
-```bash
-# Pull latest changes
-git pull origin main
-
-# Rebuild and restart
-docker-compose down
-docker-compose build --no-cache
-docker-compose up -d
 ```
 
 🆘 Support
@@ -290,4 +249,4 @@ docker-compose exec mongodb mongorestore /backup/latest/
 
 ---
 
-Need additional help? Contact support at quickbill.desk@gmail.com
+Need additional help? Check the docs directory.
