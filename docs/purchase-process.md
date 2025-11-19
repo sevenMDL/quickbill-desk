@@ -138,7 +138,7 @@ Choose your preferred method:
 - Any questions about exclusivity
 - Any technical questions or details you want to know
 
-**Response Time:** Within 24 hours  
+**Response Time:** Within 12 hours  
 *Serious inquiries only - please review documentation first*
 
 ---
