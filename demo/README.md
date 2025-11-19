@@ -3,7 +3,11 @@
 ## Video Overview
 
 **Demo Video:** [Demo_Video.mp4](Demo_Video.mp4)  
+*GitHub doesn't support video playback - you can download directly here:*  
+**https://raw.githubusercontent.com/sevenMDL/quickbill-desk/refs/heads/main/demo/Demo_Video.mp4**
+
 **Focus:** Key workflow demonstrations showing production-ready functionality
+
 
 ---
 
