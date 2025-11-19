@@ -53,7 +53,7 @@ This repository includes high-level documentation describing the complete system
 - [Code Showcase](docs/code-showcase.md) - Technical implementation examples
 - [Project Structure](docs/project-structure.md) - Codebase organization
 
-** 🎥 Live Demo**
+  🎥 **Live Demo**
 - [Watch the working demo](demo/Demo_Video.mp4) - See key features in action including invoice creation, PDF generation, and backup system.
 
 *No actual source code is included in this repository.*
