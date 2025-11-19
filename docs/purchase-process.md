@@ -59,9 +59,7 @@ See [Code Showcase](code-showcase.md) for detailed technical implementation exam
 
 **1. Contact & Confirm**
 **Email:** quickbill.desk@gmail.com  
-Confirm You Want The Buy The Project,
-And Your Preferred Payment Method Form The List Below,
-We Will Replay With Farther Details.
+Confirm your interest in purchasing the project and specify your preferred payment method from the options below. We'll reply with further details.
 
 **2. Make Payment**
 Choose your preferred method:
