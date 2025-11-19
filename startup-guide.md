@@ -244,7 +244,7 @@ Emergency Recovery
 ./start-services.sh
 
 # Database recovery
-docker-compose exec mongodb mongorestore /backup/latest/
+Use biuld in bakcup and restor system 
 ```
 
 ---

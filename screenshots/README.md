@@ -24,23 +24,28 @@
 ### Authentication & Settings
 | Login Page | Settings Page |
 |------------|---------------|
-| ![Login](Login_Page_Filled.jpg) | ![Settings](Settings_Page.jpg) |
+| ![Login](Login_Page_Filled.jpg) | ![Settings](Settings_Page_Full.jpg) |
 
 ### PDF Output
 | Professional Invoice PDF |
 |--------------------------|
-| ![PDF](PDF_Sample.jpg) |
+| ![PDF](PDF_Sample.jpg)   |
+
+### Setup Examle
+| Easy To Deploy App       |
+|--------------------------|
+| ![Script](Setupe_Output_Example.jpg) |
 
 ---
 
 ## 🎯 Key Features Showcased
 
 - **Professional Dashboard** - Revenue analytics and business insights (3 admin views)
-- **Bulk Operations** - Mass actions for efficiency  
+- **Bulk Operations** - Mass actions for efficiency
 - **Dark Mode** - User preference support
-- **Invoice Creation** - Step-by-step invoice builder with live preview  
+- **Invoice Creation** - Step-by-step invoice builder with live preview
 - **Client Management** - Complete CRM with search and filtering
 - **PDF Generation** - Professional invoice output
-- **Responsive Design** - Works on all devices
+- **Easy Deployment** - Just run setup.sh it handle installation
 
 *All screenshots from the production-ready QuickBill Desk application*
