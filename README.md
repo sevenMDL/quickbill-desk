@@ -54,7 +54,7 @@ This repository includes high-level documentation describing the complete system
 - [Project Structure](docs/project-structure.md) - Codebase organization
 
 ** 🎥 Live Demo**
-[Watch the working demo](demo/Demo_Video.mp4) - See key features in action including invoice creation, PDF generation, and backup system.
+- [Watch the working demo](demo/Demo_Video.mp4) - See key features in action including invoice creation, PDF generation, and backup system.
 
 *No actual source code is included in this repository.*
 
