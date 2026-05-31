@@ -96,7 +96,4 @@
 
 ---
 
-**Interested in deploying this for your business?**  
-See [Purchase Process](../docs/purchase-process.md) for exclusive ownership details.
-
 *All features shown are part of the actual production codebase.*

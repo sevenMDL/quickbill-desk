@@ -1,0 +1,58 @@
+{
+  "name": "quickbill-backend",
+  "version": "1.0.0",
+  "description": "QuickBill Desk Backend API - Professional billing and invoice management system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --quiet",
+    "prod": "NODE_ENV=production node src/server.js",
+    "db-help": "node scripts/db-help.js",
+    "lint": "eslint src/ config/ --ext .js --quiet",
+    "lint:fix": "eslint src/ config/ --ext .js --fix --quiet",
+    "test": "jest --silent",
+    "security-audit": "npm audit --audit-level=high --silent"
+  },
+  "dependencies": {
+    "archiver": "^5.3.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cron-parser": "^4.9.0",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^7.0.9",
+    "pdfkit": "^0.14.0",
+    "strip": "^3.0.0",
+    "stripe": "^20.0.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^10.2.3",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "billing",
+    "invoicing",
+    "api",
+    "backend",
+    "mongodb"
+  ],
+  "author": "QuickBill Desk Team",
+  "license": "SEE LICENSE IN LICENSE"
+}

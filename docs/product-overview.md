@@ -28,11 +28,9 @@ QuickBill Desk provides small businesses with a professional, self-hosted invoic
 4. **Automation**: Email delivery and basic workflow automation
 5. **Insights**: Basic business reporting and revenue tracking
 
-### Licensing Model
-- Self-hosted application with one-time payment
-- Complete source code ownership
-- White-label customization capabilities
-- No recurring fees or subscriptions
+### License
+- MIT Open Source – free to use, modify, and distribute
+- No payment required, no restrictions
 
 ## 📈 Market Position
 
@@ -41,7 +39,6 @@ QuickBill Desk provides small businesses with a professional, self-hosted invoic
 - **Professional Quality**: Professional-grade PDF generation
 - **Modern Architecture**: Clean, maintainable codebase
 - **Customization Ready**: Easy to modify and extend
-- **One-time Cost**: No ongoing subscription fees
 
 ### Market Differentiation
 QuickBill Desk stands out by providing:

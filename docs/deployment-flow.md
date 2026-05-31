@@ -6,11 +6,10 @@ A complete guide to deploying **QuickBill Desk** on your own server. This docume
 
 ## 🏁 Getting Started with Your Codebase
 
-### ✅ What You're Receiving
-- **Single codebase transfer** (ZIP file)
-- **Complete source code** – no Git repo access required
-- **Full commercial rights** – you own the code
-- **Self-hosted system** – deploy anywhere you want
+### ✅ What’s Included in This Repo
+- Complete source code (backend + frontend)
+- Open source under MIT license
+- Self‑host anywhere
 
 ---
 
@@ -166,23 +165,6 @@ npm start
 
 ---
 
-💰 Costs & Timeline
-
-Monthly Operating Cost
-
-· VPS: $5–10
-· MongoDB Atlas: $0 (free)
-· Domain: $10–15/year
-· Total: ~$7–15/month
-
-Setup Timeline
-
-· Deployment: 1–2 hours
-· Configuration: 30–60 minutes
-· Testing: 30 minutes
-· Total: 2–4 hours
-
----
 
 🛠️ Required Skills
 
