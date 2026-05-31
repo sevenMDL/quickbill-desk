@@ -1,7 +1,6 @@
 # QuickBill Desk – Professional Invoicing & Client Management
 
-**Full-stack invoicing platform** built with React, Node.js, MongoDB.  
-Live demo: [your-link] (optional)  
+**Full-stack invoicing platform** built with React, Node.js, MongoDB.   
 Source code included in this repo.
 
 ## Features
